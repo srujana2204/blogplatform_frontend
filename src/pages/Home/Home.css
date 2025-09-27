@@ -1,0 +1,183 @@
+/* General body setup */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff; /* Pure white background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Main home container */
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0;
+  color: #222222; /* Dark text for contrast */
+}
+
+/* Home content section */
+.home-content {
+  margin-bottom: 3rem;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: #2b2b2b; /* Darker gray for heading */
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: #4d4d4d; /* Medium-dark gray for paragraph */
+  animation: fadeIn 2s ease-in-out;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.home-button {
+  padding: 1rem 2rem;
+  background: #f3f3f3; /* Light gray button */
+  border-radius: 12px;
+  color: #333333;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, background 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Softer shadow */
+}
+
+.home-button:hover {
+  transform: scale(1.05);
+  background: #eaeaea; /* Slightly darker on hover */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Lottie animation section */
+.home-animation {
+  margin-top: 2rem;
+  animation: bounceIn 2s ease;
+}
+
+/* Features section */
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+.feature-card {
+  background: #ffffff; /* Full white background */
+  padding: 1.5rem;
+  width: 250px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05); /* Very light shadow */
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  background: #fdfdfd; /* Slight change on hover */
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  color: #555555; /* Neutral gray */
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #666666;
+}
+
+/* Sample posts section */
+.sample-posts {
+  margin-top: 4rem;
+  width: 80%;
+  max-width: 1200px;
+  animation: fadeIn 3s ease-in-out;
+}
+
+.sample-posts h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #666666; /* Light section title */
+}
+
+.post {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05); /* Gentle light shadow */
+  transition: transform 0.3s ease;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+}
+
+.post h4 {
+  font-size: 1.8rem;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.post p {
+  font-size: 1.1rem;
+  color: #444444;
+  line-height: 1.6;
+}
+
+.post-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+  font-size: 1rem;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.post-actions span:hover {
+  opacity: 1;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounceIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,132 @@
+/* Write.css */
+/*body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4); 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.write-container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 2.5rem;
+  width: 450px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
+}
+
+.write-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.write-form h2 {
+  text-align: center;
+  color: #5b5f97;
+  margin-bottom: 1.8rem;
+  font-size: 2.2rem;
+}
+
+.write-form input,
+.write-form textarea {
+  margin-bottom: 1.2rem;
+  padding: 0.9rem 1rem;
+  border: none;
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  resize: none;
+  transition: all 0.3s ease;
+}
+
+.write-form input:focus,
+.write-form textarea:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(255, 154, 158, 0.4);
+}
+
+.write-form textarea {
+  min-height: 150px;
+}
+
+.write-form button {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  border: none;
+  padding: 1rem;
+  border-radius: 14px;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 0.7rem;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.write-form button:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+}
+
+@keyframes floatUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+*/
+.write-container {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.write-form h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #004080;
+}
+
+.write-form input,
+.write-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.write-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.write-form button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background: #004080;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.write-form button:hover {
+  background: #0066cc;
+}
